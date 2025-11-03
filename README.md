@@ -15,16 +15,15 @@ These steps are copied from the [optix-subd](https://github.com/nvidia/optix-sub
 
 1. Clone the repo with (recursive to get the OptiX dev repo)
 
-  `git clone --recursive https://github.com/brandtd/optix-min`
+    `git clone --recursive https://github.com/brandtd/optix-min`
 
 2. Use CMake to configure and build the project files with
 
-  ```ps
-  cmake CMakeLists.txt -B ./build -DCMAKE_BUILD_TYPE=Release
-  cmake --build ./build
-  ```
+    ```ps
+    cmake CMakeLists.txt -B ./build -DCMAKE_BUILD_TYPE=Release
+    cmake --build ./build
+    ```
 
 3. Run the executable with
 
-  `./build/bin/optix-min`
-
+    `./build/bin/optix-min`
