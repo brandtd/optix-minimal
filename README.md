@@ -1,6 +1,6 @@
 # OptiX Minimal Project
 
-This repo contains a minimal setup for getting an NVIDIA OptiX application going. It takes code from [https://github.com/nvidia/optix-subd](optix-subd) and rips out as much as possible to leave the repo with:
+This repo contains a minimal setup for getting an NVIDIA OptiX application going. It takes code from [optix-subd](https://github.com/nvidia/optix-subd) and rips out as much as possible to leave the repo with:
 
 1. Access to the OptiX SDK
 2. The ability to compile and embed shader code
@@ -11,7 +11,7 @@ _NOTE_: I have only tried this on a Windows machine, so I'm unsure what changes 
 
 ## Building
 
-These steps are copied from the [https://github.com/nvidia/optix-subd](optix-subd) repo:
+These steps are copied from the [optix-subd](https://github.com/nvidia/optix-subd) repo:
 
 1. Clone the repo with (recursive to get the OptiX dev repo)
 
