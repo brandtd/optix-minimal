@@ -21,9 +21,9 @@ These steps are copied from the [optix-subd](https://github.com/nvidia/optix-sub
 
     ```bash
     cmake CMakeLists.txt -B ./build -DCMAKE_BUILD_TYPE=Release
-    cmake --build ./build
+    cmake --build ./build --config Release
     ```
 
 3. Run the executable with
 
-    `./build/bin/project`
+    `./build/bin/Release/project.exe`
