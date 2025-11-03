@@ -19,7 +19,7 @@ These steps are copied from the [optix-subd](https://github.com/nvidia/optix-sub
 
 2. Use CMake to configure and build the project files with
 
-    ```ps
+    ```bash
     cmake CMakeLists.txt -B ./build -DCMAKE_BUILD_TYPE=Release
     cmake --build ./build
     ```
