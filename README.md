@@ -26,4 +26,4 @@ These steps are copied from the [optix-subd](https://github.com/nvidia/optix-sub
 
 3. Run the executable with
 
-    `./build/bin/optix-min`
+    `./build/bin/project`
